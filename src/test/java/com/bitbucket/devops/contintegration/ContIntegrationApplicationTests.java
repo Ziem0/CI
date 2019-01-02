@@ -8,6 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotEquals;
 import static org.junit.Assert.assertTrue;
 
 @RunWith(SpringRunner.class)
@@ -29,6 +30,11 @@ public class ContIntegrationApplicationTests {
 	@Test
 	public void demo() {
 		assertEquals("ok", pageInfo.getStatus());
+	}
+
+	@Test
+	public void demo2() {
+		assertNotEquals("error", pageInfo.getStatus());
 	}
 }
 
