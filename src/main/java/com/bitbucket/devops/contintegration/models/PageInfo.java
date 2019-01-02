@@ -22,15 +22,11 @@ public class PageInfo {
 
 	}
 
-	private String calculateStatus(String status) {
+	public String calculateStatus(String status) {
 		if (status.startsWith("2")) {
 			return "ok";
 		}
 		return "error";
-	}
-
-	private void n() {
-		System.out.println("n");
 	}
 
 }
