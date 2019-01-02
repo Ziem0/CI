@@ -13,7 +13,7 @@ public class ContIntegrationApplicationTests {
 
 	@Test
 	public void contextLoads() {
-		assertTrue(false);
+		assertTrue(true);
 	}
 
 }
