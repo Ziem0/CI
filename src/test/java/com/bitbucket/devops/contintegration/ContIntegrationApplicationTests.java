@@ -36,5 +36,10 @@ public class ContIntegrationApplicationTests {
 	public void demo2() {
 		assertNotEquals("error", pageInfo.getStatus());
 	}
+
+	@Test
+	public void demo3() {
+		assertEquals(2, pageInfo.getStatus().length());
+	}
 }
 
