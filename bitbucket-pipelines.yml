@@ -6,3 +6,7 @@ pipelines:
         - maven
       script:
         - mvn -B verify
+        caches:
+          - maven
+        script:
+          - mvn -B verify
