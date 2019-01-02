@@ -22,7 +22,7 @@ public class PageInfo {
 
 	}
 
-	public String calculateStatus(String status) {
+	String calculateStatus(String status) {
 		if (status.startsWith("2")) {
 			return "ok";
 		}
